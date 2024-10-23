@@ -1,3 +1,4 @@
+#compress the string!!
 #using inbuilt function groupby we separate key and input and prints them, using join we finally join the len of list group and key,
 #and we call the function in main function
 from itertools import groupby
