@@ -1,5 +1,4 @@
-#
-
+#to sorted the combinations 
 from itertools import combinations_with_replacement
 data = (input().strip())
 s,n = data.split()
