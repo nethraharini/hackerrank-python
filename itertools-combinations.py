@@ -7,9 +7,9 @@ number_part= int(number_part)
 sorted_string = ''.join(sorted(string_part))
 
 
-for i in range(1, number_part+1 ):     # Outer loop we set lenght frok 1 to 2 so it prints ACHK and in inner loop we join the ombination of length 2 prints the folllowing output
+for i in range(1, number_part+1 ):     # Outer loop we set lenght frok 1 to 2 so it prints ACHK. 
     combo = combinations(sorted_string, i)
-    for c in combo:                     # Inner loop
+    for c in combo:                     # Inner loop ,we join the combination of length 2 prints the folllowing output
         print(''.join(c))
 
 
