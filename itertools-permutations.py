@@ -1,3 +1,4 @@
+#To permutte the input and join both sorted string_part and number part as length
 from itertools import permutations
 user_input = (input())
 string_part, number_part = user_input.split()
